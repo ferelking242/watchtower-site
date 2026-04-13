@@ -12,9 +12,6 @@
   "bugs": {
     "url": "https://github.com/aniyomiorg/aniyomi-website/issues"
   },
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
     "test": "pnpm lint && pnpm build",
     "dev": "vitepress dev src --port ${PORT:-20997} --host 0.0.0.0",
@@ -81,5 +78,6 @@
   "lint-staged": {
     "*.{styl,vue}": "stylelint --fix",
     "*.{html,json}": "prettier --write"
-  }
+  },
+  "packageManager": "pnpm@9.15.0"
 }
