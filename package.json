@@ -82,5 +82,6 @@
   "lint-staged": {
     "*.{styl,vue}": "stylelint --fix",
     "*.{html,json}": "prettier --write"
-  }
+  },
+  "packageManager": "pnpm@9.15.0"
 }
