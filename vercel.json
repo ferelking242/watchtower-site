@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npx vitepress build src",
+  "installCommand": "corepack enable && pnpm install",
+  "buildCommand": "pnpm run build",
   "outputDirectory": "src/.vitepress/dist",
   "framework": null
 }
