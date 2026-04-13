@@ -1,5 +1,5 @@
 {
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "installCommand": "npm i -g pnpm@9.15.4 && pnpm install --no-frozen-lockfile",
   "buildCommand": "rm -rf src/.vitepress/cache && pnpm run build",
   "outputDirectory": "src/.vitepress/dist",
   "framework": null
